@@ -73,7 +73,7 @@ hr{
 
 p{
 	text-align:center;
-	font-family: 'crimson', cursive;
+	font-family: 'crimson', sans-serif;
 	font-size:16px;
     margin-left:12px;
     margin-right:12px;
@@ -81,7 +81,7 @@ p{
 
 }
 h2{
-	font-family:'crmison',cursive;
+	font-family:'crmison',sans-serif;
 	font-size:30px;
 }
 span{

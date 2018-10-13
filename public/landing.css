@@ -131,6 +131,7 @@ span{
 }
 
 button{
+	margin-left:12px;
 	 width: 90px;  
   height: 40px;
   font-size:20px;
