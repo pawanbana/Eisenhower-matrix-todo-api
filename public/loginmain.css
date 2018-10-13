@@ -116,7 +116,9 @@ i{
 	margin-bottom:15px;
 }
 
-
+button:focus{
+outline:none;
+}
 
 button{
 	 width: 150px;  
