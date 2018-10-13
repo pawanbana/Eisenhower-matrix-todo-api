@@ -2,14 +2,17 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette|Niconne');
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text:600');
 html{
-	background: #f2f3f4;
+
+
+	background-image: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/asanoha-400px.png');
+height:100%;
 }
 
 
 
 h1{
 	text-align:center;
-	font-family: 'Courgette', cursive;
+	font-family: 'Courgette', sans-serif;
 	font-size:40px;
 }
 
@@ -18,6 +21,7 @@ h1{
 	width:80%;
 	height:100%;
 	margin:auto;
+	margin-top:50px;
 	}
 
 
@@ -77,23 +81,17 @@ input{
 	width:49%;
 	min-height: 200px;
 	height:auto;
-	border:2px solid green;
+	border:2px solid black;
 	margin-top:0.5%;
 	margin-bottom:0.5%;
     text-align:center;
 	border-radius: 22px;
-	box-shadow: 0 0 5px rgba(0,0,0,0.9);
-    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.9);
-    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.9);
-    -o-box-shadow: 0 0 5px rgba(0,0,0,0.9);
+	box-shadow: 0 0 8px rgba(0,0,0,0.9);
+    -moz-box-shadow: 0 0 8px rgba(0,0,0,0.9);
+    -webkit-box-shadow: 0 0 8px rgba(0,0,0,0.9);
+    -o-box-shadow: 0 0 8px rgba(0,0,0,0.9);
 }
 
-
-@media (max-width:628px){
-	.third-div{
-		width:90%;
-	}
-}
 
 
 span{
@@ -104,10 +102,11 @@ span{
 
 }
 
+
 .taskitem{
 	width:100%;
 	height:auto;
-	font-size:16px;
+	font-size:20px;
 	padding:1px;
 	margin-top:2px;
 	margin-bottom:2px;
@@ -136,16 +135,39 @@ button{
   height: 40px;
   font-size:20px;
   border-radius:30px;
+background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  background-color:#f2f3f4;
-  color:#60f774;
-  border:1px solid #60f774;
+  
+
+  color:white;
+  border:1px solid;
   font-weight:100;
  margin-top:40px;
 }
 
 button:hover{
-	background-color:#60f774;
+	
   color:white;
-  border:1px solid #60f774;
+  border:1px solid ;
+}
+
+
+i{
+	margin-right:7px;
+}
+
+
+@media (max-width:628px){
+	.third-div{
+		width:90%;
+	}
+	h1{
+		font-size: 25px;
+	}
+	button{
+		margin-top:18px;
+	}
+
 }

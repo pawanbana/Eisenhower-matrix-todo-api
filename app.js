@@ -25,6 +25,12 @@ app.use(express.static(__dirname+'/views'));
 // All routes and process here 
 //==========================================
    
+
+   app.get('/',(req,res)=>{
+      
+      res.sendFile(__dirname+"/views/loginmain.html");
+
+   });
    app.get('/login',(req,res)=>{
       
 
