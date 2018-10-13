@@ -161,8 +161,12 @@ i{
 
 
 @media (max-width:628px){
+    .maindiv{
+    	width:100%;
+    	margin-top:25px;
+    }
 	.third-div{
-		width:90%;
+		width:100%;
 	}
 	h1{
 		font-size: 25px;
