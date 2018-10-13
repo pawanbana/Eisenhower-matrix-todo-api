@@ -162,6 +162,8 @@ app.use(express.static(__dirname+'/views'));
      app.post('/users',(req,res)=>{
 
          var body=_.pick(req.body,['email','password']);
+         body.email=body.email.toLowerCase();
+         
          var user =new User(body);
 
          user.save().then(()=>{
@@ -189,6 +191,7 @@ app.use(express.static(__dirname+'/views'));
     
 
          var body=_.pick(req.body,['email','password']);
+         body.email=body.email.toLowerCase();
          User.findByCredentials(body.email,body.password).then((user)=>{
          return user.generateAuthToken();
          }).then((token)=>{
